@@ -3,8 +3,10 @@ import BlogCart from '../../common/BlogCart'
 
 export default function BlogMiddle() {
   return (
-    <div className='mt-7'>
-        <BlogCart className='md:flex-row flex-col-reverse shadow-lg  '  />
+    <div className='md:mt-7 mt-5 flex flex-col md:flex-row  gap-5 '>
+        <BlogCart className='flex-col-reverse shadow-lg  '  />
+        <BlogCart className='flex-col-reverse shadow-lg  '  />
+        <BlogCart className='flex-col-reverse shadow-lg  '  />
     </div>
   )
 }

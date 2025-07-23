@@ -23,7 +23,7 @@ function BlogCart({
   return ( 
         <div className={`flex ${className} items-center md:gap-5      `}>
             <div className={` p-2 sm:p-4 md:p-6 lg:p-8 xl-p10    `}>
-              <div className="self-start text-[30px] font-bold font-inter  text-[#2D3748]">
+              <div className="self-start lg:text-[30px] md:text-[24px] sm:text-xl text-base font-bold font-inter  text-[#2D3748]">
                 {title}
               </div>
               <div className="md:mt-7 mt-4 text-sm font-inter font-normal text-slate-500">{description}</div>
