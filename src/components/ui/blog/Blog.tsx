@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogTop from './BlogTop'
 import Container from '../../common/Container'
 import BlogMiddle from './BlogMiddle'

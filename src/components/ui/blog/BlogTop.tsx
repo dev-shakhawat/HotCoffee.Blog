@@ -1,4 +1,3 @@
-import * as React from "react";
 import BlogCart from "../../common/BlogCart";
 
 function BlogTop( 

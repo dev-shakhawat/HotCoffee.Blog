@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogCart from '../../common/BlogCart'
 
 export default function BlogMiddle() {
