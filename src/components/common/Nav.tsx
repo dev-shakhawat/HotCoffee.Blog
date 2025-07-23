@@ -62,7 +62,7 @@ export default function Nav() {
 
           {/* navs */}
           {isnav &&
-          <div ref={navRef} className="md:hidden  gap-7.5 absolute top-0 right-0   bg-white h-screen  w-1/2 p-2   ">
+          <div ref={navRef} className="md:hidden  gap-7.5 fixed top-0 right-0   bg-white h-screen  w-1/2 p-2   ">
             <div className="flex flex-col ">
               <Link to={`/`} className=' font-inter  text-base text-black mr-2 '>Home</Link>
               <Link to={`/`} className=' font-inter  text-base text-black mr-2 '>About</Link>
